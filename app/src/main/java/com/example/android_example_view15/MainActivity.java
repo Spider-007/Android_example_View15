@@ -1,13 +1,10 @@
 package com.example.android_example_view15;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.admin.SecurityLog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.util.StatsLog;
 
 import com.example.android_example_view15.model.config.BoxingConfig;
 import com.example.android_example_view15.model.entity.BaseMedia;

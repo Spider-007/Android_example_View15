@@ -53,7 +53,7 @@
         android:layout_weight="1"
         android:indeterminate="true"/>
 
-    <com.bilibili.boxing_impl.view.HackyViewPager
+    <com.example.android_example_view15.view.HackyViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

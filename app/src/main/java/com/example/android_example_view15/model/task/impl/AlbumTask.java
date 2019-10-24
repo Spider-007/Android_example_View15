@@ -19,11 +19,11 @@ package com.example.android_example_view15.model.task.impl;
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.provider.MediaStore.Images.Media;
+import android.support.annotation.NonNull;
+import android.support.annotation.WorkerThread;
+import android.support.v4.util.ArrayMap;
 import android.text.TextUtils;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.WorkerThread;
-import androidx.collection.ArrayMap;
 
 import com.example.android_example_view15.model.BoxingManager;
 import com.example.android_example_view15.model.callback.IAlbumTaskCallback;

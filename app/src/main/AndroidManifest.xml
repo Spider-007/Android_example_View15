@@ -28,8 +28,7 @@
             android:name=".ui.activity.BoxingViewActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/Boxing.AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/Boxing.AppTheme.NoActionBar"></activity>
 
     </application>
 

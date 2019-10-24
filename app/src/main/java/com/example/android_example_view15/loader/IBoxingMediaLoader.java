@@ -17,9 +17,8 @@
 
 package com.example.android_example_view15.loader;
 
+import android.support.annotation.NonNull;
 import android.widget.ImageView;
-
-import androidx.annotation.NonNull;
 
 /**
  * Define how media display.

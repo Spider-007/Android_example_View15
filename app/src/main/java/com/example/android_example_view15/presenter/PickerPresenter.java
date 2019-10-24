@@ -66,6 +66,8 @@ public class PickerPresenter implements PickerContract.Presenter {
             mCurrentPage = 0;
         }
         ContentResolver cr = mTasksView.getAppCr();
+        BoxingManager.getInstance().loadMedia(cr, page, albumId, mLoadMediaCallback);
+
     }
 
     @Override

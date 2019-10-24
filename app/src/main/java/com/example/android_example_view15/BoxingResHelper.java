@@ -1,7 +1,8 @@
 package com.example.android_example_view15;
 
 
-import androidx.annotation.DrawableRes;
+
+import android.support.annotation.DrawableRes;
 
 import com.example.android_example_view15.model.BoxingManager;
 

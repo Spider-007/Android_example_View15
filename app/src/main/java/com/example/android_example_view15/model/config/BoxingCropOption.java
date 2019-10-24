@@ -20,8 +20,7 @@ package com.example.android_example_view15.model.config;
 import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 /**
  * The cropping config, a cropped photo uri is needed at least.

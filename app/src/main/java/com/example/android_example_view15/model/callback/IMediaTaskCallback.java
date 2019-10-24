@@ -18,7 +18,8 @@
 package com.example.android_example_view15.model.callback;
 
 
-import androidx.annotation.Nullable;
+
+import android.support.annotation.Nullable;
 
 import com.example.android_example_view15.model.entity.BaseMedia;
 

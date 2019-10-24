@@ -17,9 +17,9 @@
 
 package com.example.android_example_view15;
 
+import android.support.annotation.NonNull;
 import android.widget.ImageView;
 
-import androidx.annotation.NonNull;
 import com.example.android_example_view15.loader.IBoxingCallback;
 import com.example.android_example_view15.loader.IBoxingMediaLoader;
 

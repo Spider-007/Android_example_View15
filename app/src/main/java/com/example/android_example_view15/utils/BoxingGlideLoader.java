@@ -18,9 +18,8 @@
 package com.example.android_example_view15.utils;
 
 import android.graphics.Bitmap;
+import android.support.annotation.NonNull;
 import android.widget.ImageView;
-
-import androidx.annotation.NonNull;
 
 import com.bumptech.glide.BitmapTypeRequest;
 import com.bumptech.glide.Glide;

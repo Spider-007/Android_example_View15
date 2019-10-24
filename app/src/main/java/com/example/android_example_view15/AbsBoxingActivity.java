@@ -19,9 +19,9 @@ package com.example.android_example_view15;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.android_example_view15.model.BoxingManager;
 import com.example.android_example_view15.model.config.BoxingConfig;

@@ -23,9 +23,9 @@ import android.content.ContentValues;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import androidx.annotation.NonNull;
 import com.example.android_example_view15.model.entity.BaseMedia;
 import com.example.android_example_view15.utils.BoxingExecutor;
 import com.example.android_example_view15.utils.BoxingExifHelper;

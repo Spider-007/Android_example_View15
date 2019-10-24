@@ -18,12 +18,14 @@
 package com.example.android_example_view15.model;
 
 import android.content.ContentResolver;
+import android.support.annotation.NonNull;
 
-import androidx.annotation.NonNull;
 
 import com.example.android_example_view15.model.callback.IAlbumTaskCallback;
+import com.example.android_example_view15.model.callback.IMediaTaskCallback;
 import com.example.android_example_view15.model.config.BoxingConfig;
 import com.example.android_example_view15.model.task.impl.AlbumTask;
+import com.example.android_example_view15.model.task.impl.IMediaTask;
 import com.example.android_example_view15.utils.BoxingExecutor;
 
 /**
@@ -51,7 +53,17 @@ public class BoxingManager {
         return mConfig;
     }
 
+    public void loadMedia(@NonNull final ContentResolver cr, final int page,
+                          final String id, @NonNull final IMediaTaskCallback callback) {
+        final IMediaTask task = mConfig.isVideoMode() ? new VideoTask() : new ImageTask();
+        BoxingExecutor.getInstance().runWorker(new Runnable() {
+            @Override
+            public void run() {
+                task.load(cr, page, id, callback);
+            }
+        });
 
+    }
     public void loadAlbum(@NonNull final ContentResolver cr, @NonNull final IAlbumTaskCallback callback) {
         BoxingExecutor.getInstance().runWorker(new Runnable() {
 

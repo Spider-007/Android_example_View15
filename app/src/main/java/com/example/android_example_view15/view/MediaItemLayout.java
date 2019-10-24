@@ -19,6 +19,8 @@ package com.example.android_example_view15.view;
 
 import android.content.Context;
 import android.content.res.Configuration;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -26,9 +28,6 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import androidx.annotation.DrawableRes;
-import androidx.annotation.NonNull;
 
 import com.example.android_example_view15.BoxingMediaLoader;
 import com.example.android_example_view15.BoxingResHelper;
